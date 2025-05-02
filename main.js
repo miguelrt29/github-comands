@@ -1,4 +1,3 @@
-
 /* 
 Ejercicio 1: Fast Forward Merge
 Objetivo: Realizar un merge sin conflictos cuando la rama principal no tiene cambios nuevos.
@@ -12,24 +11,21 @@ Instrucciones:
 7. Observa cómo Git hace un Fast Forward sin generar un commit de merge.
 */
 
-function main (nombre){
-    console.log(`Bienvenido a mi programa $ {nombre} ` );
+function main(nombre) {
+  console.log(`Bienvenido a mi programa $ {nombre} `);
 }
 
-
-function saludarEstudiante(nombre){
-    console.log (`hola estudiante $ {nombre} `);
+function saludarEstudiante(nombre) {
+  console.log(`hola estudiante $ {nombre} `);
 }
 
-function saludarProfesores(nombre){
-console.log (`hola profesor $ {nombre} `);
+function saludarProfesores(nombre) {
+  console.log(`hola profesor $ {nombre} `);
 }
 
-main("VankVersity")
-saludarEstudiante("VankVersity")
-saludarProfesores ("German")
-
-
+main("VankVersity");
+saludarEstudiante("VankVersity");
+saludarProfesores("German");
 
 /* Ejercicio 2: Merge con cambios divergentes (sin conflictos)
 Objetivo: Realizar un merge cuando ambas ramas han cambiado diferentes líneas del archivo sin generar conflictos.
@@ -41,11 +37,8 @@ Instrucciones:
 5. Realiza un commit en main.
 6. Intenta fusionar ambas ramas y verifica que Git lo hace automáticamente sin conflictos. */
 
+console.log(`cambios2`);
+
 function cambios(cambios) {
-    console.log(`${cambios}`);
-  }
-
-  console.log (`cambios2`);
-
-  
-
+  console.log(`cambios`);
+}
