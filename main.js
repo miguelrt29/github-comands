@@ -44,5 +44,8 @@ Instrucciones:
 function cambios(cambios) {
     console.log(`${cambios}`);
   }
+
+  console.log (`cambios2`);
+
   
 
