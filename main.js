@@ -8,11 +8,12 @@ function saludarEstudiante(nombre){
 }
 
 function saludarProfesores(nombre){
-
+console.log (`hola profesor $ {nombre} `);
 }
 
 main("VankVersity")
 saludarEstudiante("VankVersity")
+saludarProfesores ("German")
 
 
 /* 
