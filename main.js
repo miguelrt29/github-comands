@@ -42,3 +42,5 @@ console.log(`cambios2`);
 function cambios(cambios) {
   console.log(`cambios`);
 }
+
+console.log(`conflicto2`);
