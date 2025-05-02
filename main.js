@@ -43,4 +43,21 @@ function cambios(cambios) {
   console.log(`cambios`);
 }
 
+
 console.log(`conflicto2`);
+
+/*Ejercicio 3: Merge con conflicto en el mismo archivo
+Objetivo: Manejar un conflicto de fusión cuando ambas ramas han cambiado la misma línea.
+Instrucciones:
+1. Asegúrate de estar en main y crea una nueva rama (feature-conflict).
+2. Modifica una línea de código en el archivo Javascript y realiza un commit en la rama.
+3. Cambia de vuelta a main y edita la misma línea del archivo.
+4. Realiza un commit en main.
+5. Intenta hacer un merge y observa que Git muestra un conflicto.
+6. Edita manualmente el archivo para resolver el conflicto.
+7. Usa git add para marcar el archivo como resuelto y confirma el merge con un commit. */
+ 
+function conflicto(conflicto){
+    console.log(`conflicto`);
+}
+
