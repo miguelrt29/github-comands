@@ -61,3 +61,21 @@ function conflicto(conflicto){
     console.log(`conflicto`);
 }
 
+/*Ejercicio 4: Merge con conflictos en múltiples archivos
+Objetivo: Resolver conflictos en más de un archivo.
+Instrucciones:
+1. Asegúrate de estar en main y crea una nueva rama (feature-multiple-conflicts).
+2. Modifica dos archivos Javascript distintos y haz un commit en la nueva rama.
+3. Cambia a main y edita los mismos archivos en líneas diferentes.
+4. Realiza un commit en main.
+5. Intenta hacer un merge y revisa los conflictos en ambos archivos.
+6. Edita los archivos para resolver los conflictos.
+7. Usa git add para marcar los archivos como resueltos y confirma el merge con un commit. */
+
+function pruebauno(pruebauno){
+    console.log(`pruebauno`);
+}
+
+function pruebados(pruebados){
+    console.log (`pruebados`);
+}
