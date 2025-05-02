@@ -3,8 +3,12 @@ function main (nombre){
 }
 
 
-function saludarEstudiante(){
+function saludarEstudiante(nombre){
     console.log (`hola estudiante $ {nombre} `);
+}
+
+function saludarProfesores(nombre){
+
 }
 
 main("VankVersity")
