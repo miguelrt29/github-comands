@@ -82,7 +82,5 @@ function pruebados(pruebados){
 
 
 
-
-
 console.log(`pruebatres`);
  
